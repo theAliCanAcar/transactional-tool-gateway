@@ -1,0 +1,27 @@
+{
+  "name": "transactional-tool-gateway",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Prepare, commit, reconcile, and compensate local tool actions.",
+  "main": "transactional-tool-gateway.js",
+  "exports": {
+    ".": "./transactional-tool-gateway.js"
+  },
+  "files": [
+    "transactional-tool-gateway.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "transactional-tool-gateway"
+  ],
+  "license": "MIT"
+}
